@@ -1,0 +1,16 @@
+bin/
+obj/
+.DS_Store
+*.user
+care-data.json*
+
+# Local secrets and configuration
+.env
+.env.*
+appsettings.Development.json
+secrets.json
+
+# Local health data and backups
+*.bak
+*.backup
+*.code-workspace
